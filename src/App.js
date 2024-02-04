@@ -5,6 +5,7 @@ import './App.css';
 import Navbars from "./Components/Navbars";
 import  Home  from "./Components/Home";
 import About from "./Components/About";
+import NewFooter from "./Components/NewFooter";
 // import Router from "./Routes/Router";
 
 function App() {
@@ -32,8 +33,7 @@ function App() {
 
           <Route exact path="/about" element={<About />} />
         </Routes>
-
-        <h1>hello raj</h1>
+        <NewFooter/>
       </Router>
     </>
   );

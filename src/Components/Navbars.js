@@ -1,46 +1,67 @@
 import React from "react";
+import globe from "../globe.svg";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Dropdown from "react-bootstrap/Dropdown";
-import { NavItem } from "react-bootstrap";
+// import Dropdown from "react-bootstrap/Dropdown";
 // import { NavItem } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+// import { NavItem } from "react-bootstrap";
+import mainimage from "../images.png";
 const Navbars = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand>
-          <Link to={"/"}>LOGO</Link>
+          <Link to={"/"}><img src={mainimage} className="logo-s"></img></Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavItem>
-              <Dropdown>
-                <Dropdown.Toggle variant="primary" id="dropdown-basic">
-                  Dropdown Button
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item>Action</Dropdown.Item>
-                  <Dropdown.Item>Another action</Dropdown.Item>
-                  <Dropdown.Item>Something else</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </NavItem>
-            <Nav.Link>
-              <Link to={"/"}>Home</Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to={"/about"}>About</Link>
-            </Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown title="Digital Practices" id="basic-nav-dropdown">
               <NavDropdown.Item>Action</NavDropdown.Item>
               <NavDropdown.Item>Another action</NavDropdown.Item>
               <NavDropdown.Item>Something</NavDropdown.Item>
             </NavDropdown>
+            <NavDropdown title="Industries & CoE" id="basic-nav-dropdown">
+              <NavDropdown.Item>Action</NavDropdown.Item>
+              <NavDropdown.Item>Another action</NavDropdown.Item>
+              <NavDropdown.Item>Something</NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="Partners" id="basic-nav-dropdown">
+              <NavDropdown.Item>Action</NavDropdown.Item>
+              <NavDropdown.Item>Another action</NavDropdown.Item>
+              <NavDropdown.Item>Something</NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="Insights" id="basic-nav-dropdown">
+              <NavDropdown.Item>Action</NavDropdown.Item>
+              <NavDropdown.Item>Another action</NavDropdown.Item>
+              <NavDropdown.Item>Something</NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="About Us" id="basic-nav-dropdown">
+              <NavDropdown.Item>Action</NavDropdown.Item>
+              <NavDropdown.Item>Another action</NavDropdown.Item>
+              <NavDropdown.Item>Something</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link>Carrers</Nav.Link>
           </Nav>
+        </Navbar.Collapse>
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src={globe}
+              width="20"
+              height="20"
+              className="d-inline-block align-center"
+            />{" "}
+            Global
+          </Navbar.Brand>
+          <Button variant="primary" className="cta-talk blue-btn">
+            LET"S TALK
+          </Button>{" "}
         </Navbar.Collapse>
       </Container>
     </Navbar>

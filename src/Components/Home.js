@@ -1,10 +1,11 @@
 import React from "react";
+import Image from "react-bootstrap/Image";
+import mainimage from "../images.png";
 
 const Home = () => {
-  
   return (
     <>
-      <h5>Home Page</h5>
+      <Image src={mainimage} className="img-size" />
     </>
   );
 };
