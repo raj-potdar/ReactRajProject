@@ -21,29 +21,34 @@ const Navbars = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="Digital Practices" id="basic-nav-dropdown">
-              <NavDropdown.Item>Action</NavDropdown.Item>
-              <NavDropdown.Item>Another action</NavDropdown.Item>
-              <NavDropdown.Item>Something</NavDropdown.Item>
+              <NavDropdown.Item>Cloud Engineering</NavDropdown.Item>
+              <NavDropdown.Item>Data, Analytics & AI/ML</NavDropdown.Item>
+              <NavDropdown.Item>Experience Design</NavDropdown.Item>
+              <NavDropdown.Item>Intelligence Engineering</NavDropdown.Item>
+              <NavDropdown.Item>Salesforce</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Industries & CoE" id="basic-nav-dropdown">
-              <NavDropdown.Item>Action</NavDropdown.Item>
-              <NavDropdown.Item>Another action</NavDropdown.Item>
-              <NavDropdown.Item>Something</NavDropdown.Item>
+              <NavDropdown.Item>Financial Services</NavDropdown.Item>
+              <NavDropdown.Item>Manufacturing & Transportation</NavDropdown.Item>
+              <NavDropdown.Item>Media, Entertainment & Education</NavDropdown.Item>
+              <NavDropdown.Item>Technology & ISVs</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Partners" id="basic-nav-dropdown">
-              <NavDropdown.Item>Action</NavDropdown.Item>
-              <NavDropdown.Item>Another action</NavDropdown.Item>
-              <NavDropdown.Item>Something</NavDropdown.Item>
+              <NavDropdown.Item>AWS</NavDropdown.Item>
+              <NavDropdown.Item>Microsoft Azure</NavDropdown.Item>
+              <NavDropdown.Item>Confluent</NavDropdown.Item>
+              <NavDropdown.Item>Salesforce</NavDropdown.Item>
+              <NavDropdown.Item>Snowflake</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Insights" id="basic-nav-dropdown">
-              <NavDropdown.Item>Action</NavDropdown.Item>
-              <NavDropdown.Item>Another action</NavDropdown.Item>
-              <NavDropdown.Item>Something</NavDropdown.Item>
+              <NavDropdown.Item>Case Studies</NavDropdown.Item>
+              <NavDropdown.Item>Thought Leadership</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="About Us" id="basic-nav-dropdown">
-              <NavDropdown.Item>Action</NavDropdown.Item>
-              <NavDropdown.Item>Another action</NavDropdown.Item>
-              <NavDropdown.Item>Something</NavDropdown.Item>
+              <NavDropdown.Item>Leadership</NavDropdown.Item>
+              <NavDropdown.Item>Locations</NavDropdown.Item>
+              <NavDropdown.Item>Engineering Culture</NavDropdown.Item>
+              <NavDropdown.Item>News, Press Releases and Events</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link>Carrers</Nav.Link>
           </Nav>
