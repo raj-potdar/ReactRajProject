@@ -5,8 +5,8 @@ import '../Home.css';
 import { Container } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import imgq from '../imgds.jpg';
-import imga from '../imhs.jpg'
+import imgq from '../logos-all_2-2.svg';
+import imga from '../Full-Lifecycle-Digital-Transformation-01.svg'
 
 const Home = () => {
   return (
