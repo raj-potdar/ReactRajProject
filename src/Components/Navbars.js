@@ -50,7 +50,7 @@ const Navbars = () => {
               <NavDropdown.Item>Engineering Culture</NavDropdown.Item>
               <NavDropdown.Item>News, Press Releases and Events</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link>Carrers</Nav.Link>
+            <Nav.Link>Careers</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
@@ -58,14 +58,14 @@ const Navbars = () => {
             <img
               alt=""
               src={globe}
-              width="20"
+              width="20%"
               height="20"
               className="d-inline-block align-center"
             />{" "}
             Global
           </Navbar.Brand>
           <Button variant="primary" className="cta-talk blue-btn">
-            LET"S TALK
+            LET'S TALK
           </Button>{" "}
         </Navbar.Collapse>
       </Container>

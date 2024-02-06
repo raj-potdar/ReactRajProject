@@ -4,7 +4,7 @@ import {
   MDBContainer,
   MDBRow,
   MDBCol,
-  MDBIcon,
+  // MDBIcon,
 } from "mdb-react-ui-kit";
 
 const NewFooter = () => {
@@ -14,7 +14,7 @@ const NewFooter = () => {
         bgColor="light"
         className="text-center text-lg-start text-muted"
       >
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        {/* <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <div className="me-5 d-none d-lg-block">
             <span>Get connected with us on social networks:</span>
           </div>
@@ -39,86 +39,137 @@ const NewFooter = () => {
               <MDBIcon fab icon="github" />
             </a>
           </div>
-        </section>
+        </section> */}
 
         <section className="">
+          <br></br>
           <MDBContainer className="text-center text-md-start mt-5">
             <MDBRow className="mt-3">
-              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <MDBIcon icon="gem" className="me-3" />
-                  Company name
-                </h6>
+              <MDBCol md="3" lg="4" xl="4" className="mx-auto mb-4">
                 <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                  Ness Digital Engineering, which funds managed by global investment firm KKR acquired in 2022 is a full life-cycle digital engineering firm offering digital advisory through scaled engineering services. The talent resource pool comprises 5000+ engineers across 11 innovation hubs in the US, Eastern Europe, and India. Combining our core competence in engineering with the latest in digital strategy and technology, we seamlessly manage Digital Transformation journeys from strategy through execution to help businesses thrive in the digital economy. For more information, visit www.ness.com
                 </p>
               </MDBCol>
 
               <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                <h6 className="text-uppercase fw-bold mb-4">Practices</h6>
                 <p>
                   <a href="#!" className="text-reset">
-                    Angular
+                    Cloud Engineering
                   </a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">
-                    React
+                    Data,Analytics & AI/ML
                   </a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">
-                    Vue
+                    Experience Design
                   </a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">
-                    Laravel
+                    Intelligent Engineering
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Salesforce
                   </a>
                 </p>
               </MDBCol>
 
               <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+                <h6 className="text-uppercase fw-bold mb-4">Industries</h6>
                 <p>
                   <a href="#!" className="text-reset">
-                    Pricing
+                    Financial Services
                   </a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">
-                    Settings
+                    Manufacturing & Transportation
                   </a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">
-                    Orders
+                    Media, Entertainment & Education
                   </a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">
-                    Help
+                    Technology & ISVs
                   </a>
                 </p>
               </MDBCol>
 
-              <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+              <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-md-0 mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Partners</h6>
                 <p>
-                  <MDBIcon icon="home" className="me-2" />
-                  New York, NY 10012, US
+                  <a href="#!" className="text-reset">
+                    AWS
+                  </a>
                 </p>
                 <p>
-                  <MDBIcon icon="envelope" className="me-3" />
-                  info@example.com
+                  <a href="#!" className="text-reset">
+                    Microsoft Azure
+                  </a>
                 </p>
                 <p>
-                  <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                  <a href="#!" className="text-reset">
+                    Confluent
+                  </a>
                 </p>
                 <p>
-                  <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                  <a href="#!" className="text-reset">
+                    Salesforce
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Snowflake
+                  </a>
+                </p>
+              </MDBCol>
+              <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-md-0 mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Company</h6>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Leadership
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Microsoft Azure
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    News
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Insights
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Events
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Contact
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Consent To <br></br>
+                    Personal Data <br></br>
+                    Processing
+                  </a>
                 </p>
               </MDBCol>
             </MDBRow>
@@ -131,7 +182,7 @@ const NewFooter = () => {
         >
           © 2024 Copyright : 
           <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-            Geeta Bhat
+            Ness. All Rights Reserved
           </a>
         </div>
       </MDBFooter>
