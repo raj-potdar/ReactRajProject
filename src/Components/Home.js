@@ -5,6 +5,8 @@ import '../Home.css';
 import { Container } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import imgq from '../imgds.jpg';
+import imga from '../imhs.jpg'
 
 const Home = () => {
   return (
@@ -82,6 +84,8 @@ const Home = () => {
           <Col>Salesforce</Col>
         </Row>
       </Container>
+      <img src={imgq} className="logo-l newimg"></img>
+      <img src={imga} className="logo-l newimg1"></img>
     </>
   );
 };
