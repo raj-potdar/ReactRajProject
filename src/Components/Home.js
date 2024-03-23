@@ -5,8 +5,8 @@ import '../Home.css';
 import { Container } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import imgq from '../logos-all_2-2.svg';
-import imga from '../Full-Lifecycle-Digital-Transformation-01.svg'
+import img1 from "../logos-all_2-2.svg";
+import img2 from "../Full-Lifecycle-Digital-Transformation-01.svg";
 
 const Home = () => {
   return (
@@ -22,7 +22,12 @@ const Home = () => {
                 </div>
                 <div class="flip-card-back">
                   <h3>Financial Services</h3>
-                  <p>We’ve pioneered cloud and streaming technologies at financial institutions across the globe. Our CoE focuses on legacy modernization, AWS capabilities for Financial Services</p>
+                  <p>
+                    We’ve pioneered cloud and streaming technologies at
+                    financial institutions across the globe. Our CoE focuses on
+                    legacy modernization, AWS capabilities for Financial
+                    Services
+                  </p>
                   <p>Learn more</p>
                 </div>
               </div>
@@ -36,7 +41,12 @@ const Home = () => {
                 </div>
                 <div class="flip-card-back">
                   <h3>Manufacturing & Transportation</h3>
-                  <p>We transform leading manufacturing and transportation companies into next-generation connected enterprises. Our CoE couples deep domain expertise with digital accelerators to fast track the digitization journey</p>
+                  <p>
+                    We transform leading manufacturing and transportation
+                    companies into next-generation connected enterprises. Our
+                    CoE couples deep domain expertise with digital accelerators
+                    to fast track the digitization journey
+                  </p>
                   <p>Learn more</p>
                 </div>
               </div>
@@ -52,7 +62,11 @@ const Home = () => {
                 </div>
                 <div class="flip-card-back">
                   <h3>Media, Entertainment & Education</h3>
-                  <p>We help providers excel in the digital era while continuing to deliver the content that their customers crave. Our CoE brings in expertise in engineering digital media solutions</p>
+                  <p>
+                    We help providers excel in the digital era while continuing
+                    to deliver the content that their customers crave. Our CoE
+                    brings in expertise in engineering digital media solutions
+                  </p>
                   <p>Learn more</p>
                 </div>
               </div>
@@ -66,7 +80,12 @@ const Home = () => {
                 </div>
                 <div class="flip-card-back">
                   <h3>Technology ISVs</h3>
-                  <p>We help our clients accelerate speed-to-market, time-to-value and get more product done. Our CoE specializes in engineering digital infrastructure products that operate at scale</p>
+                  <p>
+                    We help our clients accelerate speed-to-market,
+                    time-to-value and get more product done. Our CoE specializes
+                    in engineering digital infrastructure products that operate
+                    at scale
+                  </p>
                   <p>Learn more</p>
                 </div>
               </div>
@@ -74,7 +93,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      
+
       <Container>
         <Row>
           <Col>Cloud Engineering</Col>
@@ -84,8 +103,8 @@ const Home = () => {
           <Col>Salesforce</Col>
         </Row>
       </Container>
-      <img src={imgq} className="logo-l newimg"></img>
-      <img src={imga} className="logo-l newimg1"></img>
+      <img src={img1} className="logo-l newimg"></img>
+      <img src={img2} className="logo-l newimg1"></img>
     </>
   );
 };
